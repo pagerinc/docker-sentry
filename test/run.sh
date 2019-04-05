@@ -3,7 +3,7 @@
 set -o errexit
 set -o nounset
 
-apk --no-cache add bats
+apt update && apt install --no-install-recommends -y bats
 
 echo "Unit Tests..."
 

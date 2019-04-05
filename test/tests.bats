@@ -1,5 +1,5 @@
 #!/usr/bin/env bats
 
-@test "It should use Sentry v9.0" {
-  docker run --rm pagerinc/sentry sentry -v | grep 9.1
+@test "It uses the latest Sentry" {
+  docker run --rm pagerinc/sentry sentry --version | grep 9.1.0
 }

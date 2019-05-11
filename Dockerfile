@@ -1,2 +1,2 @@
-FROM sentry:9.1@sha256:c1ec0e8d8a9ec19b0fe2620adaa7a7996291b93aa9aab8de3fbde30585870384
+FROM sentry:9.1@sha256:e4d8d1ffa8b527c1e33b95be6a7d5eddc1f572de0b1820f7343f44a851ccacb9
 COPY .aptible /.aptible
